@@ -103,7 +103,7 @@ img.everest-logo-container {
 
 @media (max-height: 750px) {
   .everest-header-text-wrapper {
-    left: 338px;
+    padding-left: 338px;
   }
 }
 
