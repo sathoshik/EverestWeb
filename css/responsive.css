@@ -272,12 +272,69 @@ img.everest-logo-container {
   width: 60%;
 }
 
-/* HOW */
+.everest-about-image-wrapper {
+  width: 40%;
+  height: 60vh;
+  max-height: 500px;
+  min-height: 450px;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../assets/img/about/about.png);
+}
 
+/* HOW */
 .everest-how.container-fluid {
-  height: 670px;
+  height: auto;
+  position: relative;
+  background-color: #B52C2D;
+}
+
+.everest-how .container {
+  margin-bottom: 25px;
+}
+
+.everest-how-background-image {
+  height: 100%;
+  width: 40%;
+  left: 0;
+  position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-image: url(../assets/img/background/how.jpeg);
 }
+
+.everest-how-wrapper {
+  float: right;
+  color: #ffffff;
+  width: 60%;
+  text-align: right;
+  padding: 20px;
+}
+
+.everest-how h3 {
+  font-size: 55px;
+}
+
+.everest-how h4 {
+  font-size: 45px;
+  font-family: Rubik;
+}
+
+.everest-how p {
+  overflow: hidden;
+}
+
+.everest-how img {
+  vertical-align: middle;
+  height: 115px;
+  float: right;
+}
+
+.everest-how .margin-top {
+  margin-top: 15px;
+}
+
+
