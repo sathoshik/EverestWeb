@@ -337,6 +337,64 @@ img.everest-logo-container {
   margin-top: 15px;
 }
 
+/* FEATURES */
+.everest-features.container-fluid {
+  height: auto;
+  background-color: #E2E2E2;
+}
+
+.everest-features-wrapper {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.everest-features h3 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.everest-features h4 {
+  margin-top: -30px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Rubik;
+}
+
+.everest-features p {
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.feature.qr-codes, .feature.event-feed, .feature.instant-messaging, .feature.unique-profiles, .feature.peoples-list {
+  flex: 1 0 33%;
+  justify-content: center;
+  -webkit-justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature img {
+  height: 200px;
+  width: 200px;
+}
+
+.feature-points {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qr-codes { order: 1; }
+.event-feed    { order: 2; }
+.instant-messaging { order: 3; }
+.unique-profiles  { order: 4; }
+.peoples-list  { order: 5; }
+
 
 /* CONTACT */
 .everest-contact.container-fluid {
@@ -383,7 +441,6 @@ img.everest-logo-container {
   padding-left: 10px;
 }
 
-
 .contact-email-entry-field {
   height: 40px;
   max-width: 400px;
@@ -392,7 +449,6 @@ img.everest-logo-container {
   padding-right: 10px;
   padding-left: 10px;
 }
-
 
 .post-entry-field {
   height: 160px;
@@ -420,9 +476,3 @@ img.everest-logo-container {
   background-color: #540a0a;
   cursor: pointer;
 }
-
-
-
-
-
-
