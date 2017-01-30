@@ -95,10 +95,10 @@ img.everest-logo-container {
 
 .everest-header-text-wrapper {
   line-height: 60px;
-  position: absolute;
   padding-left: 45vh;
   left: 0;
   width: 100%;
+  position: relative;
 }
 
 @media (max-height: 750px) {
@@ -475,4 +475,212 @@ img.everest-logo-container {
 .contact-button:hover {
   background-color: #540a0a;
   cursor: pointer;
+}
+
+
+
+/*======================================================================================
+========================================================================================
+                                RESPONSIVE DESIGN
+========================================================================================
+=======================================================================================*/
+
+@media (max-width: 768px) {
+
+  /* header */
+  .everest-header-app {
+    left: 10px;
+  }
+
+  .everest-header-text-wrapper {
+    padding-left: 40vh;
+  }
+
+  /* how it works */
+
+  /* features */
+
+  /* journey */
+
+  /* contact */
+}
+
+
+
+@media (max-width: 750px) {
+
+  /* header */
+  .everest-header-app {
+    display: none;
+  }
+
+  .everest-header-text-wrapper {
+    padding-left: 0;
+  }
+
+  .everest-header-wrapper {
+    text-align: center;
+  }
+
+  /* how it works */
+
+  /* features */
+
+  /* journey */
+
+  /* contact */
+}
+
+@media (max-width: 570px) {
+
+  /* header */
+  .everest-header-app {
+    display: none;
+  }
+
+  .everest-header-text-wrapper {
+    padding-left: 0;
+  }
+
+  .everest-header-wrapper {
+    text-align: center;
+  }
+
+  /* how it works */
+  .everest-how-background-image {
+    display: none;
+  }
+
+  .everest-how-wrapper {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* features */
+
+  /* journey */
+
+  /* contact */
+}
+
+@media (max-width: 475px) {
+
+/* header */
+
+/* about */
+  .everest-about.container-fluid {
+    height: auto;
+  }
+
+  .everest-about-image-wrapper {
+    display: none;
+  }
+
+  .everest-about-content-wrapper {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+/* how it works */
+
+/* features */
+
+/* journey */
+
+/* contact */
+}
+
+@media (max-width: 420px) {
+
+  /* header */
+  .header-text {
+    font-size: 80px;
+  }
+
+  .header-subtext {
+    font-size: 25px;
+  }
+
+  .email-entry-field {
+    height: 40px;
+  }
+
+  .email-entry-button {
+    line-height: 30px;
+    height: 40px;
+  }
+
+  /* about */
+  .everest-about h3 {
+       font-size: 50px;
+  }
+
+  .everest-about h4 {
+    font-size: 30px;
+  }
+
+  .everest-about p {
+    font-size: 15px;
+  }
+  /* how it works */
+
+  .everest-how h3 {
+    font-size: 50px;
+  }
+
+  .everest-how h4 {
+    font-size: 35px;
+  }
+
+  .everest-how p {
+    font-size: 15px;
+  }
+
+  /* features */
+
+  .everest-features h3 {
+    font-size: 50px;
+  }
+
+  .everest-features p {
+    font-size: 15px;
+  }
+  /* journey */
+
+  .everest-email-list-text-wrapper .header-text {
+    font-size: 27px;
+  }
+
+  .everest-email-list-text-wrapper .header-subtext {
+    font-size: 18px;
+  }
+  /* contact */
+}
+
+@media (max-width: 360px) {
+
+  /* header */
+  .header-text {
+    font-size: 60px;
+  }
+
+  .header-subtext {
+    font-size: 25px;
+  }
+
+  /* how it works */
+  .everest-how p {
+    overflow: visible;
+  }
+
+  .everest-how img {
+    height: 100px;
+    margin-top: 15px;
+  }
+  /* features */
+
+  /* journey */
+
+  /* contact */
 }
