@@ -558,6 +558,10 @@ img.everest-logo-container {
 
   /* features */
 
+  .feature-points {
+    display: block;
+  }
+
   /* journey */
 
   /* contact */
